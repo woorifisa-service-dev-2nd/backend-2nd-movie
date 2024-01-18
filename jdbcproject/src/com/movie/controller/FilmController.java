@@ -3,9 +3,11 @@ package com.movie.controller;
 import java.sql.Connection;
 import java.util.Scanner;
 
+import com.movie.util.DBUtil;
+
 import dev.movie.dao.FilmDAO;
 import dev.movie.dao.RatingDAO;
-import dev.movie.util.DBUtil;
+//import dev.movie.util.DBUtil;
 
 public class FilmController {
 	String path = "resources/jdbc.properties";
